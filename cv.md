@@ -36,5 +36,5 @@ function validatePIN (pin) {
 
 ## Languages
 
-- Russian > native speaker.
+- Russian > Native speaker.
 - English > Pre-Intermediate.
