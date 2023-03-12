@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>CV#2. HTML, CSS & Git Basics</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
   </head>
   <body>
     <header>
       <h1>Yury Haleta</h1>
-      <img src="sketch.jpg" alt="Yury Haleta" />
+      <img src="sketch.jpg" alt="Yury Haleta" >
 
       <nav class="nav">
         <ul class="nav-list">
@@ -35,23 +35,22 @@
         </ul>
       </nav>
     </header>
-    <article>
-      <section class="Contacts" id="Contacts">
-        <h2 class="SectionText">Contacts</h2>
-        <p><a href="mailto:uholeta@gmail.com">e-mail: uholeta@gmail.com</a></p>
-        <p><a href="https://github.com/uholeta">git: uholeta</a></p>
-      </section>
 
-      <section class="AboutMe" id="AboutMe">
-        <h2 class="SectionText">About me</h2>
-        <a>
-          I have good interpersonal skills, am an excellent team worker and very
-          willing to learn and develop new skills. My goal is to gain knowledge
-          in the field of front-end development.</a
-        >
-      </section>
+    <section class="Contacts" id="Contacts">
+      <h2 class="SectionText">Contacts</h2>
+      <p><a href="mailto:uholeta@gmail.com">e-mail: uholeta@gmail.com</a></p>
+      <p><a href="https://github.com/uholeta">git: uholeta</a></p>
+    </section>
 
-      <section class="Skills" id="Skills"></section>
+    <section class="AboutMe" id="AboutMe">
+      <h2 class="SectionText">About me</h2>
+      <a>
+        I have good interpersonal skills, am an excellent team worker and very
+        willing to learn and develop new skills. My goal is to gain knowledge in
+        the field of front-end development.</a>
+    </section>
+
+    <section class="Skills" id="Skills">
       <h2 class="SectionText">Skills</h2>
       <ul>
         <li>HTML</li>
@@ -59,17 +58,20 @@
         <li>JavaScript</li>
         <li>Git</li>
       </ul>
-      <section class="CodeExamples" id="CodeExamples"></section>
+    </section>
+
+    <section class="CodeExamples" id="CodeExamples">
       <h2 class="SectionText">Code examples</h2>
       <p>
         <code>
-          function validatePIN (pin) { <br />//return true or false <br />
-          const digPin = pin.replace(/\D/g, ''); <br />
+          function validatePIN (pin) { <br>//return true or false <br>
+          const digPin = pin.replace(/\D/g, ''); <br>
           return digPin === pin && (pin.length === 4 || pin.length ===
           6);}</code
         >
       </p>
-      <section class="Education" id="Education"></section>
+    </section>
+    <section class="Education" id="Education">
       <h2 class="SectionText">Education</h2>
 
       <ul>
@@ -79,15 +81,16 @@
         </li>
         <li>Courses: <a href="https://goit.global/ph/"> GoIT </a></li>
       </ul>
+    </section>
 
-      <section class="Languages">
-        <h2 class="SectionText" id="Languages">Languages</h2>
-        <ul>
-          <li>Russian > Native speaker.</li>
-          <li>English > Pre-Intermediate.</li>
-        </ul>
-      </section>
-    </article>
+    <section class="Languages">
+      <h2 class="SectionText" id="Languages">Languages</h2>
+      <ul>
+        <li>Russian > Native speaker.</li>
+        <li>English > Pre-Intermediate.</li>
+      </ul>
+    </section>
+
     <footer>
       <p>Copyright It`s me</p>
     </footer>
