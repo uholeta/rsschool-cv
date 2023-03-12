@@ -1,1 +1,1 @@
-# rsschool-cv
+https://uholeta.github.io/rsschool-cv/cv
