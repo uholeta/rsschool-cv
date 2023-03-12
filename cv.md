@@ -1,5 +1,7 @@
 # **Yury Haleta**
 
+![](sketch.jpg)
+
 ## Contacts
 
 - e-mail: uholeta@gmail.com
